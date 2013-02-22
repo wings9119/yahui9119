@@ -1,25 +1,25 @@
 ---
-layout: post
+layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>yahui9119</title>
- <link href="http://wings9119.github.com/yahui9119/atom.xml" rel="self"/>
- <link href="http://wings9119.github.com/yahui9119/"/>
+ <title>Tom Preston-Werner</title>
+ <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
+ <link href="http://tom.preston-werner.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://wings9119.github.com/yahui9119/</id>
+ <id>http://tom.preston-werner.com/</id>
  <author>
-   <name>yahui9119</name>
-   <email>yahui9119@gmail.com</email>
+   <name>Tom Preston-Werner</name>
+   <email>tom@mojombo.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://wings9119.github.com/yahui9119/{{ post.url }}"/>
+   <link href="http://tom.preston-werner.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://wings9119.github.com/yahui9119/{{ post.id }}</id>
+   <id>http://tom.preston-werner.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
