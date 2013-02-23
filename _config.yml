@@ -1,5 +1,5 @@
 pygments: true
-source:github.com/wings9119/yahui9119
+source:yahui9119
 destination:yahui9119
 lsi:false
 safe:true
