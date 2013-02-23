@@ -1,0 +1,10 @@
+---
+layout: post
+title: 我的第一个git博客
+---
+
+h1. {{ page.title }}
+
+p(meta). 18 Oct 2008 - San Francisco
+
+测试使用的 不要介意内用少了点。。。
